@@ -1,8 +1,9 @@
 from github import Github
 import urllib.request, json, time, os
+from secrets import token 
 
 
-g = Github("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")
+g = Github(token)
 lat = []
 lon = []
 loops = 0
